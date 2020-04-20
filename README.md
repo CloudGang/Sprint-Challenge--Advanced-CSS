@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+An adaptive website is one that adjusts the content to fit the space of a window while the content layout stays the same. Responsive websites change the content layout to be optimized for window size.
 
 2. Describe what it means to be mobile first vs desktop first.
+Mobile first means designing with the default styles fit for a mobile window and media queries added to adjust for desktop windows. Desktop works in the opposite: default styles are for a desktop window and media queries are added to adjust for mobile windows.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+62.5% of 16px (typical default browser font-size) is 10px. So the font size would be 10px.
 
 4. How would you describe preprocessing to someone new to CSS?
+I would say preprocessing is the ability to organize CSS code and Files.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+My favorite concept is importing. The concent that gives me the most trouble is nesting.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -126,10 +131,10 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
+* [x] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
 
-* [ ] Introduce CSS animations to your site.
+* [x] Introduce CSS animations to your site.
 
-* [ ] Create a fixed navigation and add some opacity to the background
+* [x] Create a fixed navigation and add some opacity to the background
 
-* [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+* [x] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
