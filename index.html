@@ -3,12 +3,27 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-
+  <script src="js/btn.js" type="text/javascript"></script> 
+  <style>
+    .nav {
+      opacity: 0.3;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    
+    .nav:hover {opacity: 1;}
+  </style>
+  <style>
+    .link:hover {color: rgb(9, 4, 51);}
+    .link:hover {font-weight: bold;}
+  </style>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -17,12 +32,26 @@
 <body>
 
  <!-- navigation code here -->
-
+  <header class="navigation">
+  <div class="container nav">
+    <style>h1{font-size: 3rem;}</style>
+      <h1>SpaceWalkers</h1>
+      <nav>
+          <a href="#" class="link">Home</a>
+          <a href="#" class="link">About Us</a>
+          <a href="#" class="link">Blog</a>
+          <a href="contact.html" class="link">Contact</a>
+          <a href="#" class="link">Sign In</a>
+      </nav>
+    </div>
+  </header>
   <div class="container home">
 
     <header class="intro">
        <!-- image code here -->
-
+      <div class="img-container">
+        <img class="header-img" src="img/main-header.png">
+      </div>
       <h2>Lift Off</h2>
     
       <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
@@ -51,8 +80,19 @@
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
-        <div class="btn">
-          Sign Up
+        <style>
+          .btn{
+            opacity: 1;
+            transition: 0.5s;
+            cursor: pointer;
+          }
+          .btn:hover{
+            opacity: 1;
+            font-weight: bold;
+          }
+        </style>
+        <div class="btn" onclick="myFunction()">
+            Sign Up
         </div>
       </div>
       
